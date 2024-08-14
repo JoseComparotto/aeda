@@ -12,6 +12,7 @@
 
 Explique o resultado de n e pn após a execução do programa abaixo:
 
+[ex01.cpp](./Src/ex01.cpp)
 ```c
 #include <stdio.h>
 int main(){
@@ -37,6 +38,7 @@ int main(){
 
 Qual a falha no uso de ponteiros do programa abaixo?
 
+[ex02.cpp](./Src/ex02.cpp)
 ```c
 #include <stdio.h>
 int main(){
@@ -63,6 +65,7 @@ Inicialize um vetor de inteiros de 100 elementos aleatoriamente e percorra o vet
 
 ## Resposta:
 
+[ex03.cpp](./Src/ex03.cpp)
 ```c
 #include <stdio.h>
 #include <stdlib.h>
