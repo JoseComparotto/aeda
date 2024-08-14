@@ -13,7 +13,7 @@
 Explique o resultado de n e pn após a execução do programa abaixo:
 
 [ex01.cpp](./Src/ex01.cpp)
-```c
+```cpp
 #include <stdio.h>
 int main(){
     int n = 100;
@@ -39,7 +39,7 @@ int main(){
 Qual a falha no uso de ponteiros do programa abaixo?
 
 [ex02.cpp](./Src/ex02.cpp)
-```c
+```cpp
 #include <stdio.h>
 int main(){
     float x,y;
@@ -66,7 +66,7 @@ Inicialize um vetor de inteiros de 100 elementos aleatoriamente e percorra o vet
 ## Resposta:
 
 [ex03.cpp](./Src/ex03.cpp)
-```c
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -101,3 +101,33 @@ int main(){
     }
 }
 ```
+
+
+# Exercício 4
+
+Coloque em ordem o programa e explique.
+
+```c
+int main () {
+    int x, *p;
+    ( ) *p = x + 20;
+    ( ) p = &x;
+    ( ) x = 10;
+}
+```
+
+## Resposta:
+
+[ex04.cpp](./Src/ex04.cpp)
+```c
+int main () {
+    int x, *p;
+    x = 10;
+    p = &x;
+    *p = x + 20;
+}
+```
+
+### Explicação
+
+A ordem das instruções `x = 10;` e `p = &x;` poderia ser invertida sem causar problemas, pois `p` apenas precisa apontar para `x` antes de `*p` ser utilizado. No entanto, `*p = x + 20;` deve vir após essas duas instruções para garantir que `p` aponte para um endereço válido (o de `x`) e que `x` tenha um valor definido. Se `*p` fosse utilizado antes de `p` apontar para `x`, o programa poderia tentar acessar uma área de memória não inicializada, levando a um comportamento indefinido.
