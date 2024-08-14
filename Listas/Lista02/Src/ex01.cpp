@@ -20,7 +20,6 @@ int main(){
 
 /** 
  * Resposta:
- *  Tanto o identificador "n", quanto o ponteiro "*pn", identificam o mesmo
- *  endereço de memória. Logo, o comportamento esperado é que eles se
- *  comportem como se fossem a mesma variável.
+ *  Tanto o identificador n, quanto o ponteiro *pn, identificam o mesmo
+ *  endereço de memória. Logo, se comportam como se fossem a mesma variável.
  */
