@@ -121,10 +121,10 @@ int main () {
 [ex04.cpp](./Src/ex04.cpp)
 ```c
 int main () {
-    int x, *p;
-    x = 10;
-    p = &x;
-    *p = x + 20;
+    int x, *p;      // Declara as variáveis
+    x = 10;         // Inicializa x com o valor 10
+    p = &x;         // Inicializa p com o endereço de x
+    *p = x + 20;    // Equivalente a: (x = x + 20) ou (*p = *p + 20).
 }
 ```
 
