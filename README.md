@@ -4,6 +4,6 @@
 | ------------- | ------------------------------------------------------------------------------------- | :------------------: |
 | Curso:        | Ciência da Computação                                                                 | Noturno              |
 | Professora:   | Noiza Waltrick Trindade                                                               |                      |
-| Disciplina:   | Algoritmos e Estrutura de Dados Avançados                                             | 2024.2 - 6º Semestre |
+| Disciplina:   | Algoritmos e Estrutura de Dados Avançados                                             | 2024.2 - Turma A     |
 | Universidade: | Anhanguera-Uniderp - Matriz                                                           | Campo Grande, MS     |
 
