@@ -30,9 +30,8 @@ int main(){
 }
 ```
 ## Resposta:
-    Tanto o identificador "n", quanto o ponteiro "*pn", identificam
-    o mesmo endereço de memória. Logo, o comportamento esperado é que
-    eles se comportem como se fossem a mesma variável.
+
+Tanto o identificador `n`, quanto o ponteiro `*pn`, identificam o mesmo endereço de memória. Logo, se comportam como se fossem a mesma variável.
 
 # Exercício 2
 
@@ -52,12 +51,8 @@ int main(){
 }
 ```
 ## Resposta:
-    O ponteiro "p" é do tipo "int *", ou seja, identifica
-    um endereço de memória que armazena valores do tipo "int".
-    Logo, a atribuição "p = &x;" é inválida pois tenta definir
-    o endereço que aramazenado em "p" para o endereço de uma
-    variável do tipo "float", quando era eserado uma endereço
-    de uma variável do tipo "int".
+
+O ponteiro `p` é do tipo `int *`, ou seja, identifica um endereço de memória que armazena valores do tipo `int`. Logo, a atribuição `p = &x;` é inválida pois tenta definir o endereço aramazenado em `p` para o endereço de uma variável do tipo `float`, quando era esperado um endereço de uma variável do tipo `int`.
 
 # Exercício 3
 
