@@ -8,7 +8,7 @@
  * início do vetor e outro do final até se encontrarem no meio. 
  */
 
-#define TAMANHO 20
+#define TAMANHO 100
 
 int main(){
 
@@ -18,7 +18,7 @@ int main(){
 
     printf("Lista: ");
     for(int i = 0; i < TAMANHO; i++){
-        lista[i] = rand() % 100; // Aleatório entre 0 a 99
+        lista[i] = rand() % TAMANHO;
     }
 
     for(int i = 0; i < TAMANHO; i++){
@@ -32,9 +32,8 @@ int main(){
     printf("| P1 | P2 |\n");
     printf("| -- | -- |\n");
 
-    do {
+     while(p1 < p2) {
         printf("| %02d | %02d |\n", *p1, *p2);
         p1++; p2--;
-    } while(p1 < p2);
+    }
 }
-
