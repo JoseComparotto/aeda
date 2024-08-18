@@ -1,5 +1,5 @@
+#include <assert.h>
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * 2. O fatorial de um número inteiro positivo n é definido como sendo o produto dos
@@ -7,21 +7,26 @@
  * contenha uma função que receba um inteiro como parâmetro e retorne seu fatorial.
  */
 
-int main(int argc, char** argv) {
-    int n, resultado;
+int fatorial(int n) {
+    int r = 1;
+
+    assert(n >= 0);  // Garante que n é não-negativo
     
-    printf("> ");
+    for (int i = 2; i <= n; i++) {
+        r *= i;
+    }
+    
+    return r;
+}
+
+int main() {
+    int n, resultado;
+
+    printf("> n = ");
     scanf("%d", &n);
 
     resultado = fatorial(n);
+    printf("< n! = %d\n", resultado);
 
-    printf("< %d\n", resultado);
-	return 0;
-}
-
-int fatorial(int n){
-
-    if (n == 0) return 1;
-    return n * fatorial(n-1);
-
+    return 0;
 }

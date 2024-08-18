@@ -11,16 +11,6 @@
  * coluna. O total obtido é o produto procurado.
  */
 
-int main(int argc, char** argv) {
-    int a, b;
-    
-    printf("> ");
-    scanf("%d %d", &a, &b);
-
-    ex01(a,b);
-	return 0;
-}
-
 int ex01(int a, int b){
 
     int auxA = a;
@@ -45,8 +35,19 @@ int ex01(int a, int b){
         auxB = auxB * 2;
 
     } while (auxA >= 1);
-    printf("| --- | --- | ----- | ---- |\n\n");
 
-    printf("Resultado: %d x %d = %d\n", a, b, soma);
+    return soma;
+}
 
+int main(int argc, char** argv) {
+    int a, b, produto;
+    
+    printf("> a = "); scanf("%d", &b);
+    printf("> b = "); scanf("%d", &a);
+
+    produto = ex01(a,b);
+
+    printf("< %d x %d = %d\n", a, b, produto);
+
+	return 0;
 }
