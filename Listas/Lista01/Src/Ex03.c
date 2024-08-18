@@ -13,14 +13,14 @@ int main(int argc, char** argv) {
     printf("> x1 = "); scanf("%d", &x1);
     printf("> x2 = "); scanf("%d", &x2);
 
-    ex03(&x1, &x2);
+    troca(&x1, &x2);
 
     printf("< x1 = %d\n", x1);
     printf("< x2 = %d\n", x2);
 	return 0;
 }
 
-void ex03(int* x1, int* x2){
+void troca(int* x1, int* x2){
     int aux = *x1;
     *x1 = *x2;
     *x2 = aux;
