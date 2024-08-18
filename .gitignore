@@ -4,3 +4,6 @@
 **/Src/**/*
 !**/Src/**/*.c
 !**/Src/**/*.cpp
+
+# Ignora arquivos executaveis
+*.exe
