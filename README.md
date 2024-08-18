@@ -9,4 +9,6 @@
 
 ## Listas
 
-- [Lista 02](Listas/Lista02)
+- **[Lista 01](Listas/Lista01)**
+
+- **[Lista 02](Listas/Lista02)**
