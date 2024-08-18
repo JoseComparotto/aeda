@@ -1,1 +1,6 @@
 .vscode/*
+
+# Ignorar todos os arquivos dentro de alguma pasta 'Src/', exceto arquivos com extensões de C/C++
+**/Src/**/*
+!**/Src/**/*.c
+!**/Src/**/*.cpp
