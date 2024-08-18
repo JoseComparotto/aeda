@@ -1,18 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <assert.h>
 
 /**
  * 1. Faça um programa que leia dois números inteiros, positivos, e determine
- * o produto deles, utilizando o seguinte método de multiplicação:
- * - Dividir, sucessivamente, o primeiro número por 2, até que se obtenha 1
- * como quociente;
- * - Paralelamente, dobrar, sucessivamente, o segundo número;
- * - Somar os números da segunda coluna que tenham um número ímpar na primeira
- * coluna. O total obtido é o produto procurado.
+ *    o produto deles, utilizando o seguinte método de multiplicação:
+ * 
+ *    - Dividir, sucessivamente, o primeiro número por 2, até que se obtenha 1
+ *      como quociente;
+ * 
+ *    - Paralelamente, dobrar, sucessivamente, o segundo número;
+ * 
+ *    - Somar os números da segunda coluna que tenham um número ímpar na
+ *      primeira coluna. O total obtido é o produto procurado.
  */
 
 int ex01(int a, int b){
 
+    assert(a > 0 && b > 0);  // Garante que 'a' e 'b' são positivos
+    
     int auxA = a;
     int auxB = b;
     int soma = 0;
@@ -42,8 +48,8 @@ int ex01(int a, int b){
 int main(int argc, char** argv) {
     int a, b, produto;
     
-    printf("> a = "); scanf("%d", &b);
-    printf("> b = "); scanf("%d", &a);
+    printf("> a = "); scanf("%d", &a);
+    printf("> b = "); scanf("%d", &b);
 
     produto = ex01(a,b);
 

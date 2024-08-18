@@ -3,8 +3,8 @@
 
 /**
  * 2. O fatorial de um número inteiro positivo n é definido como sendo o produto dos
- * inteiros de 1 a n. O fatorial de zero é definido como 1. Faça um programa que
- * contenha uma função que receba um inteiro como parâmetro e retorne seu fatorial.
+ *    inteiros de 1 a n. O fatorial de zero é definido como 1. Faça um programa que
+ *    contenha uma função que receba um inteiro como parâmetro e retorne seu fatorial.
  */
 
 int fatorial(int n) {

@@ -8,7 +8,7 @@
 | Universidade: | Anhanguera-Uniderp - Matriz                                                           | Campo Grande, MS     |
 | Atividade     | [Lista 02 - Ponteiros](./Docs/EDA%20-%20Lista02.pdf)                                 | Data: 13/08/2024               |
 
-# Exercício 1
+## Exercício 1
 
 Explique o resultado de n e pn após a execução do programa abaixo:
 
@@ -29,11 +29,11 @@ int main(){
     return 0;
 }
 ```
-## Resposta:
+### Resposta:
 
 Tanto o identificador `n`, quanto o ponteiro `*pn`, identificam o mesmo endereço de memória. Logo, se comportam como se fossem a mesma variável.
 
-# Exercício 2
+## Exercício 2
 
 Qual a falha no uso de ponteiros do programa abaixo?
 
@@ -50,15 +50,15 @@ int main(){
     return 0;
 }
 ```
-## Resposta:
+### Resposta:
 
 O ponteiro `p` é do tipo `int *`, ou seja, identifica um endereço de memória que armazena valores do tipo `int`. Logo, a atribuição `p = &x;` é inválida pois tenta definir o endereço aramazenado em `p` para o endereço de uma variável do tipo `float`, quando era esperado um endereço de uma variável do tipo `int`.
 
-# Exercício 3
+## Exercício 3
 
 Inicialize um vetor de inteiros de 100 elementos aleatoriamente e percorra o vetor listando os elementos. Para percorrer o vetor use dois ponteiros: um começando do início do vetor e outro do final até se encontrarem no meio. 
 
-## Resposta:
+### Resposta:
 
 [ex03.cpp](./Src/ex03.cpp)
 ```cpp
@@ -97,7 +97,7 @@ int main(){
 }
 ```
 
-# Exercício 4
+## Exercício 4
 
 Coloque em ordem o programa e explique.
 
@@ -110,7 +110,7 @@ int main () {
 }
 ```
 
-## Resposta:
+### Resposta:
 
 [ex04.cpp](./Src/ex04.cpp)
 ```cpp
@@ -126,7 +126,7 @@ int main () {
 
 A ordem das instruções `x = 10;` e `p = &x;` poderia ser invertida sem causar problemas, pois `p` apenas precisa apontar para `x` antes de `*p` ser utilizado. No entanto, `*p = x + 20;` deve vir após essas duas instruções para garantir que `p` aponte para um endereço válido (o de `x`) e que `x` tenha um valor definido. Se `*p` fosse utilizado antes de `p` apontar para `x`, o programa poderia tentar acessar uma área de memória não inicializada, levando a um comportamento indefinido.
 
-# Exercício 5
+## Exercício 5
 
 Em relação ao programa acima a linha abaixo está certa ou errada? Explique.
 
@@ -134,6 +134,6 @@ Em relação ao programa acima a linha abaixo está certa ou errada? Explique.
 p = x;
 ```
 
-## Resposta:
+### Resposta:
 
 Errada. A chamada do ponteiro `p` (sem o `*`) apenas atribui ou recupera endereços de memória. A instrução tenta atribuir o valor de `x` (um valor `int`) diretamente ao ponteiro. O que não é válido e retornará um erro de compilação. 
