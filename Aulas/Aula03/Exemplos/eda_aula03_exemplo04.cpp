@@ -3,11 +3,11 @@
 
 void FUNC1(){
 	int B = -100;
-	printf("Valor de B dentro da função FUNC1: %d\n", B);
+	printf("Valor de B dentro da funÃ§Ã£o FUNC1: %d\n", B);
 }
 void FUNC2(){
 	int B = -200;
-	printf("Valor de B dentro da função FUNC2: %d\n", B);
+	printf("Valor de B dentro da funÃ§Ã£o FUNC2: %d\n", B);
 }
 
 int main() {
