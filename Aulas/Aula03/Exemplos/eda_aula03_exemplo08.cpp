@@ -10,9 +10,9 @@ int main(){
     int i;
     float Vet[10];
 
-    zeraVet(Vet,10);  // Passa o nome do vetor como parâmetro
+    zeraVet(Vet,10);  // Passa o nome do vetor como parï¿½metro
     for(i=0;i<10;i++)
-    	printf("%d ", Vet[i]); 
+    	printf("%f ", Vet[i]); 
     return 0;
 }
 

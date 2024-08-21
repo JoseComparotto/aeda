@@ -1,14 +1,14 @@
 #include <stdio.h>
-// Define que o parâmetro é uma referência à outra variável
+// Define que o parÃ¢metro Ã© uma referÃªncia Ã  outra variÃ¡vel
 void zera(float *a){
-	// utiliza o operador de referência para alterar o conteúdo da variável
+	// utiliza o operador de referÃªncia para alterar o conteÃºdo da variÃ¡vel
     *a = 0; 
 }
 
 int main(){
 	float f;
     f = 20.7;
-    zera(&f);  // Passa o endereço da variável f para a função
+    zera(&f);  // Passa o endereÃ§o da variÃ¡vel f para a funÃ§Ã£o
     printf("Valor final: %.2f", f);
 }
 
