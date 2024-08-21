@@ -1,4 +1,4 @@
-# Lista 02
+# Lista 02 - Ponteiros
 
 | Academico:    | [José A. Q. C. Gomes <code>@JoseComparotto</code>](https://github.com/JoseComparotto) | RA: 398439413098     |
 | ------------- | ------------------------------------------------------------------------------------- | :------------------: |
