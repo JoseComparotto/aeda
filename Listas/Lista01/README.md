@@ -1,4 +1,4 @@
-# Lista 01
+# Lista 01 - Aula Inaugural
 
 | Academico:    | [José A. Q. C. Gomes <code>@JoseComparotto</code>](https://github.com/JoseComparotto) | RA: 398439413098     |
 | ------------- | ------------------------------------------------------------------------------------- | :------------------: |
@@ -6,7 +6,7 @@
 | Professora:   | Noiza Waltrick Trindade                                                               |                      |
 | Disciplina:   | Algoritmos e Estrutura de Dados Avançados                                             | 2024.2 - Turma A     |
 | Universidade: | Anhanguera-Uniderp - Matriz                                                           | Campo Grande, MS     |
-| Atividade     | [Lista 01](./Docs/EDA%20-%20Lista01.pdf)                                              | Data: 06/08/2024     |
+| Atividade     | [Lista 01 - Aula Inaugural](./Docs/EDA%20-%20Lista01.pdf) 				| Data: 06/08/2024     |
 
 ## Exercício 1
 
