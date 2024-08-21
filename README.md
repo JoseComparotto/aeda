@@ -9,8 +9,8 @@
 
 ## Listas
 
-- **[Lista 01](Listas/Lista01)**
+- **[Lista 01 - Aula Inaugural](Listas/Lista01)**
 
-- **[Lista 02](Listas/Lista02)**
+- **[Lista 02 - Ponteiros](Listas/Lista02)**
 
-- **[Lista 03](Listas/Lista03)**
+- **[Lista 03 - Revisão de Funções](Listas/Lista03)**
