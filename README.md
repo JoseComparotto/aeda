@@ -7,10 +7,10 @@
 | Disciplina:   | Algoritmos e Estrutura de Dados Avançados                                             | 2024.2 - Turma A     |
 | Universidade: | Anhanguera-Uniderp - Matriz                                                           | Campo Grande, MS     |
 
-## Listas
+## Exercícios Resolvidos
 
 - **[Lista 01 - Aula Inaugural](Listas/Lista01)**
 
 - **[Lista 02 - Ponteiros](Listas/Lista02)**
 
-- **[Lista 03 - Revisão de Funções](Listas/Lista03)**
+- **[Exercícios da Aula 03 - Revisão de Funções](Aulas/Aula03/Exercicios)**

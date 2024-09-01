@@ -1,12 +1,12 @@
-# Lista 03 - Revisão de Funções
+# Exercícios da Aula 03 - Revisão de Funções
 
-| Academico:    | [José A. Q. C. Gomes <code>@JoseComparotto</code>](https://github.com/JoseComparotto) | RA: 398439413098     |
-| ------------- | ------------------------------------------------------------------------------------- | :------------------: |
-| Curso:        | Ciência da Computação                                                                 | Noturno              |
-| Professora:   | Noiza Waltrick Trindade                                                               |                      |
-| Disciplina:   | Algoritmos e Estrutura de Dados Avançados                                             | 2024.2 - Turma A     |
-| Universidade: | Anhanguera-Uniderp - Matriz                                                           | Campo Grande, MS     |
-| Atividade     | [Lista 03 - Revisão de Funções](./Docs/EDA%20-%20Lista03.pdf)                         | Data: 20/08/2024     |
+| Academico:    | [José A. Q. C. Gomes <code>@JoseComparotto</code>](https://github.com/JoseComparotto)                                            | RA: 398439413098     |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------- | :------------------: |
+| Curso:        | Ciência da Computação                                                                                                            | Noturno              |
+| Professora:   | Noiza Waltrick Trindade                                                                                                          |                      |
+| Disciplina:   | Algoritmos e Estrutura de Dados Avançados                                                                                        | 2024.2 - Turma A     |
+| Universidade: | Anhanguera-Uniderp - Matriz                                                                                                      | Campo Grande, MS     |
+| Atividade     | [Exercícios da Aula 03 - Revisão de Funções](../Docs/EDA%20-%20Encontro%2003%20-%20Revis%C3%A3o%20sobre%20fun%C3%A7%C3%B5es.pdf) | Data: 20/08/2024     |
 
 ## Exercício 1
 
