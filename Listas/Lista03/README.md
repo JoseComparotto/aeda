@@ -115,7 +115,7 @@ long double potencia(int base, int expoente){
 
 O que faz a função abaixo?
  
-```c
+```cpp
 int f(int a, int b){
     if(b==0)
         return a;
