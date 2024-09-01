@@ -14,3 +14,5 @@
 - **[Lista 02 - Ponteiros](Listas/Lista02)**
 
 - **[Exercícios da Aula 03 - Revisão de Funções](Aulas/Aula03/Exercicios)**
+
+- **[Lista 03 - Recursividade](Listas/Lista03)**
