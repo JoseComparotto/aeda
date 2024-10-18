@@ -161,3 +161,41 @@ void emOrdem_ArvBin(ArvBin *raiz){
         emOrdem_ArvBin(&((*raiz)->dir));
     }
 }
+
+void preOrdem_ArvBin(ArvBin *raiz){
+    if(raiz == NULL)
+        return;
+    if(*raiz != NULL){
+        printf("%d\n",(*raiz)->info);
+        preOrdem_ArvBin(&((*raiz)->esq));
+        preOrdem_ArvBin(&((*raiz)->dir));
+    }
+}
+
+void posOrdem_ArvBin(ArvBin *raiz){
+    if(raiz == NULL)
+        return;
+    if(*raiz != NULL){
+        posOrdem_ArvBin(&((*raiz)->esq));
+        posOrdem_ArvBin(&((*raiz)->dir));
+        printf("%d\n",(*raiz)->info);
+    }
+}
+
+int consulta_ArvBin(ArvBin *raiz, int valor){
+
+    NO* noAtual = *raiz;
+
+    while (noAtual != NULL)
+    {
+        if(valor < noAtual -> info){
+            noAtual = noAtual -> esq;
+        }
+        else if(valor > noAtual -> info){
+            noAtual = noAtual -> dir;
+        }
+        else return 1; // O valor é igual ao valor do nó atual.
+    }
+
+    return 0; // O valor não foi encontrado na árvore
+}
