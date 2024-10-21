@@ -13,4 +13,7 @@ void emOrdem_ArvBin(ArvBin *raiz);
 int consulta_ArvBin(ArvBin *raiz, int valor);
 void preOrdem_ArvBin(ArvBin *raiz);
 void posOrdem_ArvBin(ArvBin *raiz);
+int menorValor_ArvBin(ArvBin *raiz);
+int maiorValor_ArvBin(ArvBin *raiz);
+int*** matrizPorNivel_ArvBin(ArvBin *raiz);
 void imprime_ArvBin(ArvBin *raiz);

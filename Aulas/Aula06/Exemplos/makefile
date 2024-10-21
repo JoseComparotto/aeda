@@ -3,9 +3,10 @@ CC = gcc
 
 # Definir flags de compilação
 CFLAGS = -Wall -g
+LDFLAGS = -lm
 
 # Lista de arquivos de código-fonte
-SRCS = main.c ArvoreBinaria.c
+SRCS = main.c util.c ArvoreBinaria.c
 
 # Gerar a lista de arquivos-objetos
 OBJS = $(SRCS:.c=.o)
@@ -18,7 +19,7 @@ all: $(EXEC)
 
 # Regra para compilar o executável
 $(EXEC): $(OBJS)
-	$(CC) $(CFLAGS) -o $(EXEC) $(OBJS)
+	$(CC) $(CFLAGS) -o $(EXEC) $(OBJS) $(LDFLAGS)
 
 # Regra para compilar os arquivos .c em .o
 %.o: %.c

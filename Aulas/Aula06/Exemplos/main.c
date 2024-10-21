@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
+#include <math.h>
 #include "ArvoreBinaria.h"
 
 void testa_consulta_ArvBin(ArvBin* raiz);
+void testa_imprime_ArvBin(ArvBin* raiz);
 
 int main(){
-	setlocale(LC_ALL,"");
 	
     int N = 8, dados[8] = {50,100,30,20,40,45,35,37};
 
@@ -26,6 +26,8 @@ int main(){
 	
 	printf("\nAltura da árvore = %d\n", altura_ArvBin(raiz));
 
+	imprime_ArvBin(raiz);
+	
 	testa_consulta_ArvBin(raiz);
 
     libera_ArvBin(raiz);
