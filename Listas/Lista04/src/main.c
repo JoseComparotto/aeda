@@ -4,7 +4,6 @@
 #include "ArvoreBinaria.h"
 
 void testa_consulta_ArvBin(ArvBin* raiz);
-void testa_imprime_ArvBin(ArvBin* raiz);
 
 int main(){
 	
