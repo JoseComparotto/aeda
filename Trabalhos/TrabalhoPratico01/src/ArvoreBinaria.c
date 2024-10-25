@@ -298,7 +298,7 @@ int*** matrizPorNivel_ArvBin(ArvBin *raiz) {
     return matriz;
 }
 
-void imprime_ArvBin(ArvBin *raiz) {
+void imprimePorNivel_ArvBin(ArvBin *raiz) {
 
     if (estaVazia_ArvBin(raiz)) return;
 

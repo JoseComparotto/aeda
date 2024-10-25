@@ -25,7 +25,9 @@ int main(){
 	
 	printf("\nAltura da árvore = %d\n", altura_ArvBin(raiz));
 
-	imprime_ArvBin(raiz);
+	printf("\nImpressão por nível:\n");
+
+	imprimePorNivel_ArvBin(raiz);
 	
 	testa_consulta_ArvBin(raiz);
 
