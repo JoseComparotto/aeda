@@ -82,4 +82,10 @@ A função deve imprimir os nós da árvore organizados por nível. Por exemplo,
 
 #### Resposta
 
-https://github.com/JoseComparotto/aeda/blob/8d3efcff16fa34ccc63fc06fd06007b91d27b176/Trabalhos/TrabalhoPratico01/src/ArvoreBinaria.c#L235-L340
+Parte 1 - Gerar matriz por nível
+
+https://github.com/JoseComparotto/aeda/blob/3de48b77a1985d4fd6ab957e47129c1415a1e356/Trabalhos/TrabalhoPratico01/src/ArvoreBinaria.c#L243-L299
+
+Parte 2 - Imprimir níveis
+
+https://github.com/JoseComparotto/aeda/blob/3de48b77a1985d4fd6ab957e47129c1415a1e356/Trabalhos/TrabalhoPratico01/src/ArvoreBinaria.c#L301-L339
