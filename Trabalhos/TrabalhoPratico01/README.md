@@ -1,4 +1,4 @@
-# Trabalho Prático 01 - Implementação de Funções para Árvores Binárias
+# Trabalho Prático 01 - Funções para Árvores Binárias
 
 | Academico:    | [José A. Q. C. Gomes <code>@JoseComparotto</code>](https://github.com/JoseComparotto) | RA: 398439413098 |
 | ------------- | ------------------------------------------------------------------------------------- | :--------------: |
@@ -6,7 +6,7 @@
 | Professora:   | Noiza Waltrick Trindade                                                               |                  |
 | Disciplina:   | Algoritmos e Estrutura de Dados Avançados                                             | 2024.2 - Turma A |
 | Universidade: | Anhanguera-Uniderp - Matriz                                                           | Campo Grande, MS |
-| Atividade     | [Trabalho Prático 01 - Implementação de Funções para Árvores Binárias](./docs/EDA%20-%20Trabalho%20Pratico%2001.pdf) | Data: 27/10/2024 |
+| Atividade     | [Trabalho Prático 01 - Funções para Árvores Binárias](./docs/EDA%20-%20Trabalho%20Pratico%2001.pdf) | Data: 27/10/2024 |
 
 ## Objetivo
 
