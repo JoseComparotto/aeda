@@ -17,3 +17,4 @@ int menorValor_ArvBin(ArvBin *raiz);
 int maiorValor_ArvBin(ArvBin *raiz);
 int*** matrizPorNivel_ArvBin(ArvBin *raiz);
 void imprimePorNivel_ArvBin(ArvBin *raiz);
+void libera_matriz(int*** matriz, int niveis);

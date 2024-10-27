@@ -35,6 +35,17 @@ void libera_ArvBin(ArvBin *raiz){
     free(raiz);			//libera a raiz
 }
 
+void libera_matriz(int*** matriz, int niveis){
+    if(matriz == NULL)
+        return;
+
+    for(int i = 0; i < niveis; i++){
+        free(matriz[i]);
+    }
+
+    free(matriz);
+}
+
 int insere_ArvBin(ArvBin *raiz, int valor){
     if(raiz == NULL)
         return 0;
@@ -245,10 +256,11 @@ int*** matrizPorNivel_ArvBin(ArvBin *raiz) {
         return NULL;
 
     int altura = altura_ArvBin(raiz);
+    int niveis = altura + 1;
 
     // Aloca a matriz de ponteiros onde cada linha i terá 2^i colunas
-    int ***matriz = (int ***) malloc(altura * sizeof(int **));
-    for (int i = 0; i <= altura; i++) {
+    int ***matriz = (int ***) malloc(niveis * sizeof(int **));
+    for (int i = 0; i < niveis; i++) {
         int largura = exp2(i); // 2^i
 
         matriz[i] = (int **) malloc(largura * sizeof(int *));
@@ -259,7 +271,7 @@ int*** matrizPorNivel_ArvBin(ArvBin *raiz) {
     }
 
     // Cria uma fila para armazenar os nós e suas posições
-    ElementoFila *fila = (ElementoFila *) malloc(exp2(altura) * sizeof(ElementoFila));
+    ElementoFila *fila = (ElementoFila *) malloc(exp2(niveis) * sizeof(ElementoFila));
     int inicio = 0, fim = 0; // Controladores do início e fim da fila
 
     // Coloca a raiz na fila
@@ -305,6 +317,7 @@ void imprimePorNivel_ArvBin(ArvBin *raiz) {
     int*** matriz = matrizPorNivel_ArvBin(raiz);
 
     int altura = altura_ArvBin(raiz);
+    int niveis = altura + 1;
     int maiorValor = maiorValor_ArvBin(raiz);
     int menorValor = menorValor_ArvBin(raiz);
 
@@ -335,7 +348,9 @@ void imprimePorNivel_ArvBin(ArvBin *raiz) {
                 printf("%*s", espacoEntreNos, "");
             }
         }
-        printf("\n");
+        printf("\n\n");
     }
+
+    libera_matriz(matriz, niveis);
 }
 
