@@ -3,7 +3,9 @@
 # Ignorar todos os arquivos dentro de alguma pasta 'Src/', exceto arquivos com extensões de C/C++
 **/Src/**/*
 !**/Src/**/*.c
+!**/Src/**/*.h
 !**/Src/**/*.cpp
+!**/Src/**/*.cmd
 
 # Ignora arquivos executaveis
 *.exe
