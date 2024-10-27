@@ -6,7 +6,7 @@
 | Professora:   | Noiza Waltrick Trindade                                                               |                  |
 | Disciplina:   | Algoritmos e Estrutura de Dados Avançados                                             | 2024.2 - Turma A |
 | Universidade: | Anhanguera-Uniderp - Matriz                                                           | Campo Grande, MS |
-| Atividade     | [Trabalho Prático 01 - Implementação de Funções para Árvores Binárias](./docs/EDA%20-%20Trabalho%20Pratico%2001.pdf) | Data: 15/10/2024 |
+| Atividade     | [Trabalho Prático 01 - Implementação de Funções para Árvores Binárias](./docs/EDA%20-%20Trabalho%20Pratico%2001.pdf) | Data: 27/10/2024 |
 
 ## Objetivo
 
@@ -32,7 +32,7 @@ for encontrado ou 0 caso o valor não exista na árvore.
 
 #### Resposta
 
-https://github.com/JoseComparotto/aeda/blob/0359f3a516ddb5c5e31d4b343ef63507908a8124/Trabalhos/TrabalhoPratico01/src/ArvoreBinaria.c#L217-L233
+https://github.com/JoseComparotto/aeda/blob/eee5f169685811f13e63393cb08ca2f827bba9b0/Trabalhos/TrabalhoPratico01/src/ArvoreBinaria.c#L228-L241
 
 ### 2. Impressão em Pré-Ordem
 
@@ -50,7 +50,7 @@ imprimir os valores dos nós.
 
 #### Resposta
 
-https://github.com/JoseComparotto/aeda/blob/8d3efcff16fa34ccc63fc06fd06007b91d27b176/Trabalhos/TrabalhoPratico01/src/ArvoreBinaria.c#L197-L205
+https://github.com/JoseComparotto/aeda/blob/eee5f169685811f13e63393cb08ca2f827bba9b0/Trabalhos/TrabalhoPratico01/src/ArvoreBinaria.c#L208-L216
 
 ### 3. Impressão em Pós-Ordem
 
@@ -67,7 +67,7 @@ void posOrdem_ArvBin(ArvBin *raiz);
 
 #### Resposta
 
-https://github.com/JoseComparotto/aeda/blob/8d3efcff16fa34ccc63fc06fd06007b91d27b176/Trabalhos/TrabalhoPratico01/src/ArvoreBinaria.c#L207-L215
+https://github.com/JoseComparotto/aeda/blob/eee5f169685811f13e63393cb08ca2f827bba9b0/Trabalhos/TrabalhoPratico01/src/ArvoreBinaria.c#L218-L226
 
 ### 4. Impressão Por Nível
 
@@ -84,8 +84,8 @@ A função deve imprimir os nós da árvore organizados por nível. Por exemplo,
 
 Parte 1 - Gerar matriz por nível
 
-https://github.com/JoseComparotto/aeda/blob/3de48b77a1985d4fd6ab957e47129c1415a1e356/Trabalhos/TrabalhoPratico01/src/ArvoreBinaria.c#L243-L299
+https://github.com/JoseComparotto/aeda/blob/eee5f169685811f13e63393cb08ca2f827bba9b0/Trabalhos/TrabalhoPratico01/src/ArvoreBinaria.c#L254-L311
 
 Parte 2 - Imprimir níveis
 
-https://github.com/JoseComparotto/aeda/blob/3de48b77a1985d4fd6ab957e47129c1415a1e356/Trabalhos/TrabalhoPratico01/src/ArvoreBinaria.c#L301-L339
+https://github.com/JoseComparotto/aeda/blob/eee5f169685811f13e63393cb08ca2f827bba9b0/Trabalhos/TrabalhoPratico01/src/ArvoreBinaria.c#L313-L355
